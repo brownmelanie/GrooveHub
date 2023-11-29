@@ -1,0 +1,16 @@
+img{
+    height: 40px;
+    width: auto;
+}
+.divCarrito{
+    display: flex;
+}
+p{
+    color: white;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: 700;
+    background-color: #ea3230;
+    border-radius: 100%;
+    height: 17px;
+    width: 17px;
+}

@@ -1,0 +1,24 @@
+
+  .header_container {
+    margin: 0 50px;
+    padding-block: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .navbar_link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 23px;
+  }
+  .navbar_link:hover{
+    color: #FFD335;
+    transition: 0.4s;
+  }

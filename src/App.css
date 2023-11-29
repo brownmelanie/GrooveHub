@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&family=Shrikhand&family=Sometype+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(45, 45, 45);
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shrikhand', serif;
+font-family: 'Sometype Mono', monospace;
+*/

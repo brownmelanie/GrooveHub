@@ -1,0 +1,6 @@
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px 30px;
+}
