@@ -4,15 +4,15 @@ export const DATA_MOCK = [
         name: 'IGOR - Tyler, The Creator',
         category: 'Vinyl',
         price: 20,
-        img: 'src/assets/vynil.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/vynil.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
         id: 2,
-        name: 'WWAFAWDWG - Billie',
+        name: 'WWAFAWDWG - Billie Eilish',
         category: 'Poster',
         price: 5,
-        img: 'src/assets/poster.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/poster.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -28,7 +28,7 @@ export const DATA_MOCK = [
         name: 'Dont Smile At Me - Billie',
         category: 'Vinyl',
         price: 5,
-        img: 'src/assets/billie-eilish-dont-smile-at-me-records-lps-602557919486-vinyl-593964_2048x2048.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/billie-eilish-dont-smile-at-me-records-lps-602557919486-vinyl-593964_2048x2048.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -44,7 +44,7 @@ export const DATA_MOCK = [
         name: 'Dont Smile At Me - Billie',
         category: 'Poster',
         price: 5,
-        img: 'src/assets/dontSmileAtMe.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/dontSmileAtMePoster.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -60,7 +60,7 @@ export const DATA_MOCK = [
         name: 'Happier Than Ever - Billie',
         category: 'CD',
         price: 5,
-        img: 'src/assets/f6738d46-c5f4-491e-93ec-3f4b918df533.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/f6738d46-c5f4-491e-93ec-3f4b918df533.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -68,7 +68,7 @@ export const DATA_MOCK = [
         name: 'WWAFAWDWG - Billie',
         category: 'Vinyl',
         price: 5,
-        img: 'src/assets/GUEST_b92b5dfa-a71a-4c59-ae58-0e0b597f402c.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/GUEST_b92b5dfa-a71a-4c59-ae58-0e0b597f402c.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -76,7 +76,7 @@ export const DATA_MOCK = [
         name: 'Happier Than Ever - Billie',
         category: 'Poster',
         price: 5,
-        img: 'src/assets/happierThanEver.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/happierThanEver.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -84,7 +84,7 @@ export const DATA_MOCK = [
         name: 'WWAFAWDWG - Billie',
         category: 'CD',
         price: 5,
-        img: 'src/assets/WWAFAWDWG.jpg',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/WWAFAWDWG.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
 ]

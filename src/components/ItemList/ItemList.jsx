@@ -14,9 +14,8 @@ const ItemList = ({productos}) => {
                         <p>{item.category}</p>
                         <b>USD${item.price}</b>
                         <Button>
-                            <Link to={`/item/${item.id}`}>See more</Link>
+                            <Link className='linkReact' to={`/item/${item.id}`}>See more</Link>
                         </Button>
-                        {/*<p>{item.description}</p>*/}
                     </div>
                 </div>
             ))}
