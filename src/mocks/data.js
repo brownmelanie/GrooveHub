@@ -20,7 +20,7 @@ export const DATA_MOCK = [
         name: 'Graduation - Kanye West',
         category: 'CD',
         price: 10,
-        img: 'src/assets/cd.webp',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/cd.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -36,7 +36,7 @@ export const DATA_MOCK = [
         name: 'Happier Than Ever - Billie',
         category: 'Vinyl',
         price: 5,
-        img: 'src/assets/D_Q_NP_832871-MLU71133502957_082023-O.webp',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/D_Q_NP_832871-MLU71133502957_082023-O.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
@@ -52,7 +52,7 @@ export const DATA_MOCK = [
         name: 'Dont Smile At Me - Billie',
         category: 'CD',
         price: 5,
-        img: 'src/assets/dontsmileatme.webp',
+        img: 'https://raw.githubusercontent.com/brownmelanie/GrooveHub/main/src/assets/dontsmileatme.webp',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
