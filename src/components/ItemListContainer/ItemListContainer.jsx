@@ -1,17 +1,36 @@
 import './ItemListContainer.css'
-import Cards from '../Cards/Cards.jsx'
-
-//Cuando trato de agregar imagenes por props me deja de renderizar toda la pagina
+import { useEffect, useState } from 'react'
+import { pedirDatos } from '../../utils/utils.js'
+import ItemList from '../ItemList/ItemList.jsx'
+import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+    const [loading, setLoading] = useState(true)
+    //genero el estado (productos) y su useState que essu valor inicial un array vacio para q despues se carguen los productos dentro
+
+    const {categoryId} = useParams()
+    console.log(categoryId)
+
+    useEffect(() => {
+        setLoading(true)
+
+        pedirDatos().then((data) => {
+                const items = categoryId 
+                ? data.filter (prod => prod.category === categoryId)
+                : data
+                setProductos(items)
+            })
+            .finally(() => setLoading(false))
+    }, [categoryId]) //le pongo array de dependencia con categoryId para que solo cada vez q vea un cambio en el, renderice otra vez. asi no hace peticiones innecesarias
+
     return(
         <section className='shop'>
-            <Cards title="Vynil" price={20}/>
-            <Cards title="CD" price={8}/>
-            <Cards title="Poster" price={10}/>
-            <Cards title="Poster" price={10}/>
-            <Cards title="Poster" price={10}/>
-            <Cards title="Poster" price={10}/>
+            {
+                loading
+                    ? <h2 className='loading'>Loading...</h2> //desp cambiar el loading por un skeleton
+                    :<ItemList productos={productos}/>
+            }
         </section>
     )
 }

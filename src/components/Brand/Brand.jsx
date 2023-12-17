@@ -1,8 +1,9 @@
 import './Brand.css'
+import { Link } from 'react-router-dom'
 
 const Brand = () => {
     return(
-        <a href='#' className='brand_title'>GrooveHub</a>
+        <Link to={'/'} className='brand_title'>GrooveHub</Link>
     )
 }
 

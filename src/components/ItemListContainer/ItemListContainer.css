@@ -4,3 +4,9 @@
     justify-content: space-around;
     margin: 80px 30px;
 }
+.loading{
+    color: rgba(255, 255, 255, 0.101);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
