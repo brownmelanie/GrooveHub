@@ -3,9 +3,11 @@ import Brand from '../Brand/Brand'
 import CartWidget from '../CartWidget/CartWidget'
 import { Link } from 'react-router-dom'
 
+
+
 const links = [
     {
-        label: 'Productos',
+        label: 'All Products',
         href: '/products'
     },
     {
@@ -21,7 +23,7 @@ const links = [
         href: '/products/Vinyl'
     },
     {
-        label: 'Contacto',
+        label: 'Contact',
         href: '/contact'
     }
 ]
@@ -49,5 +51,6 @@ const Navbar = () => {
         </header>
     )
 }
+
 
 export default Navbar

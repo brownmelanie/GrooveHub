@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { pedirDatos } from '../../utils/utils.js'
 import ItemList from '../ItemList/ItemList.jsx'
 import { useParams } from 'react-router-dom';
+import Loader from '../Loader/Loader'
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
@@ -27,9 +28,9 @@ const ItemListContainer = () => {
     return(
         <section className='shop'>
             {
-                loading
-                    ? <h2 className='loading'>Loading...</h2> //desp cambiar el loading por un skeleton
-                    :<ItemList productos={productos}/>
+            loading 
+                ? <Loader/>
+                : <ItemList productos={productos}/>
             }
         </section>
     )
