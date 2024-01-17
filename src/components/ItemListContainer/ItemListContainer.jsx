@@ -11,7 +11,6 @@ const ItemListContainer = () => {
     //genero el estado (productos) y su useState que essu valor inicial un array vacio para q despues se carguen los productos dentro
 
     const {categoryId} = useParams()
-    console.log(categoryId)
 
     useEffect(() => {
         setLoading(true)

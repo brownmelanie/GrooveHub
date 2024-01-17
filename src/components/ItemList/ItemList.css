@@ -1,19 +1,14 @@
 .card_container{
-    margin: 20px;
-    height: 550px;
+    margin: 30px;
+    height: fit-content;
     width: 350px;
-    background-color: #1e1e1e;
-    border-radius: 5px;
-    transition: 0.5s ease-out;
+    padding-top: 20px;
+    background-color: transparent;
     overflow: visible;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.card_container:hover{
-    transition: 0.5s;
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
 }
 .card_container img{
     width: 300px;
@@ -23,15 +18,14 @@
 .card_text{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    padding: 20px 20px 0 25px;
 }
 .card_text h3{
     color: white;
     font-size: 25px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
-
+    line-height: 26px;
 }
 .card_text b{
     color: white;
@@ -41,9 +35,21 @@
 }
 .card_text p{
     color: white;
-    background: transparent;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    margin-top: 15px;
+}
+.card_text h4{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffd335c2;
+    margin-top: 5px;
+}
+.card_text button{
+    padding: 10px;
+    width: 150px;
+    margin: 0;
     margin-top: 15px;
 }
 
@@ -53,6 +59,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 700;
+    display: block;
+    height: 30px;
+    padding-top: 5px;
 }
 .linkReact:hover{
     color: #FFD335;
