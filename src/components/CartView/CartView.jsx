@@ -50,6 +50,7 @@ const CartView = () => {
             </ul>
             <h4>Total: USD$ {totalCart()}</h4>
             <Button onClick={clearCart}>Empty cart</Button>
+            <Button><Link to="/checkout">Finish purchase</Link></Button>
         </section>
     )
 }

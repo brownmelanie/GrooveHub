@@ -16,6 +16,7 @@
     border-radius: 5px;
 }
 .card_text{
+    width: 350px;
     display: flex;
     flex-direction: column;
     padding: 20px 20px 0 25px;
@@ -26,18 +27,21 @@
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     line-height: 26px;
+    cursor: default;
 }
 .card_text b{
     color: white;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 5px;
+    cursor: default;
 }
 .card_text p{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-top: 15px;
+    cursor: default;
 }
 .card_text h4{
     color: white;
@@ -45,6 +49,7 @@
     font-weight: 400;
     color: #ffd335c2;
     margin-top: 5px;
+    cursor: default;
 }
 .card_text button{
     padding: 10px;

@@ -26,6 +26,7 @@
     font-size: 60px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    cursor: default;
 
 }
 .detail_text b{
@@ -33,6 +34,7 @@
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
+    cursor: default;
 }
 .detail_text p{
     color: white;
@@ -40,18 +42,23 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-top: 15px;
-    width: 60%;
     height: fit-content;
 }
 .category{
     font-size: 40px;
 }
 .description{
-    font-size: 30px;
+    font-size: 20px;
 }
 .button_back Button{
     border: none;
     font-size: 30px;
 
+}
+.outStock{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: default;
 }
 

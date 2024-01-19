@@ -57,4 +57,9 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 0 0 20px;
+    width: 500px;
+}
+.item_description_cart Button{
+    height: fit-content;
+    padding: 10px;
 }

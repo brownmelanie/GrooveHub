@@ -1,9 +1,10 @@
 import './ItemListContainer.css'
 import { useEffect, useState } from 'react'
-import { pedirDatos } from '../../utils/utils.js'
 import ItemList from '../ItemList/ItemList.jsx'
 import { useParams } from 'react-router-dom';
 import Loader from '../Loader/Loader'
+import { collection, getDocs, query, where } from 'firebase/firestore';
+import { db } from '../../firebase/config.js';
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
@@ -15,14 +16,26 @@ const ItemListContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos().then((data) => {
-                const items = categoryId 
-                ? data.filter (prod => prod.category === categoryId)
-                : data
-                setProductos(items)
+
+    const productosRef = collection (db, 'products')
+    const docsRef = categoryId 
+                ? query (productosRef, where('category', '==', categoryId))
+                : productosRef
+
+
+    getDocs( docsRef )
+        .then ((querySnapshot) => {
+            const docs = querySnapshot.docs.map(doc => {
+                return {
+                    ...doc.data(),
+                    id: doc.id
+                }
             })
-            .finally(() => setLoading(false))
+            setProductos( docs )
+        })
+        .finally(() => setLoading(false))
     }, [categoryId]) //le pongo array de dependencia con categoryId para que solo cada vez q vea un cambio en el, renderice otra vez. asi no hace peticiones innecesarias
+
 
     return(
         <section className='shop'>

@@ -58,7 +58,7 @@ const ItemDetail = ({item}) => {
                                     <Button onClick={handleAgregar}>Add to cart</Button>
                                 </>
                             ) : (
-                            <p>Out of stock</p>
+                            <p className='outStock'>Out of stock</p>
                             )}
                         </>
                 }

@@ -19,4 +19,5 @@ h1{
     font-size: 280px;
     line-height: 250px;
     letter-spacing: 10px;
+    cursor: default;
 }

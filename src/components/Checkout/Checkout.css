@@ -1,0 +1,59 @@
+.checkout_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 40px;
+    cursor: default;
+}
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_input{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(56, 56, 56);
+    border-radius: 5px;
+    width: 50%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.form_input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+.form_button{
+    margin-top: 30px;
+    font-size: 18px;
+    width: 50%;
+}
+.order_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order_title{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+    cursor: default;
+}
+.order_text{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    cursor: default;
+}
+.order_text b{
+    cursor: text;
+    transition: 0.3s ease-in-out;
+}
+.order_text b:hover{
+    color: #ffd335a6;
+}

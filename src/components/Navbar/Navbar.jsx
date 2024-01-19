@@ -21,10 +21,6 @@ const links = [
     {
         label: 'Vinyls',
         href: '/products/Vinyl'
-    },
-    {
-        label: 'Contact',
-        href: '/contact'
     }
 ]
 
