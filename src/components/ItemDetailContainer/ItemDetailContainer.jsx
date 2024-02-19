@@ -4,7 +4,6 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import Loader from '../Loader/Loader'
 import { db } from "../../firebase/config";
 import { doc, getDoc } from "firebase/firestore";
-import './ItemDetailContainer.css'
 
 
 const ItemDetailContainer = () => {

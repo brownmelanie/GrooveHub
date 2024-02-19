@@ -13,7 +13,7 @@ const QuantitySelector = ({cantidad, stock, setCantidad}) => {
     }
 
     return (
-        <div>
+        <div className="container">
             <Button onClick={handleRestar}>-</Button>
             <span>{cantidad}</span>
             <Button onClick={handleSumar}>+</Button>

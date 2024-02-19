@@ -16,7 +16,7 @@
     text-decoration: none;
     color: white;
     font-family: 'Sometype Mono', monospace;
-    font-size: 23px;
+    font-size: 15px;
     transition: 0.3s ease-in-out
   }
   .navbar_link:hover{

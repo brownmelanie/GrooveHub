@@ -1,7 +1,7 @@
 .card_container{
     margin: 30px;
     height: fit-content;
-    width: 350px;
+    width: 250px;
     padding-top: 20px;
     background-color: transparent;
     overflow: visible;
@@ -11,19 +11,19 @@
     justify-content: center;
 }
 .card_container img{
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 5px;
 }
 .card_text{
-    width: 350px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     padding: 20px 20px 0 25px;
 }
 .card_text h3{
     color: white;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     line-height: 26px;
@@ -31,7 +31,7 @@
 }
 .card_text b{
     color: white;
-    font-size: 25px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 5px;
     cursor: default;
@@ -40,6 +40,7 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 15px;
     margin-top: 15px;
     cursor: default;
 }
@@ -53,7 +54,7 @@
 }
 .card_text button{
     padding: 10px;
-    width: 150px;
+    width: 120px;
     margin: 0;
     margin-top: 15px;
 }
@@ -62,13 +63,16 @@
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
+    padding-top: 3px;
     font-weight: 700;
     display: block;
-    height: 30px;
-    padding-top: 5px;
+    height: 23px;
 }
 .linkReact:hover{
     color: #FFD335;
     transition: 0.4s;
+}
+h4{
+    font-size: 12px;
 }
